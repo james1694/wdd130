@@ -41,6 +41,8 @@ body {
   font-size: 18px;
   text-align: center;
   background-color: #F4D58D;
+  margin: 0;
+  padding: 0;
 }
 img {
   display: block;
@@ -50,9 +52,11 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -116,12 +120,14 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
   text-align: center;
   color: white;
+
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  padding-top: 5px ;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
@@ -190,6 +196,14 @@ main section {
 .book, .join{
   background-color: #FF9F1C;
   color: black;
+  font: size 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.home-title{
+  front: size 2em;
+  margin-top: 50px;
 }
 .book:hover, .join:hover{
   background-color: #FF9F1C;
@@ -199,14 +213,22 @@ main section {
 .msg{
   background-color: #F4D58D;
   color: white;
+  line-height: 1.5em;
+  padding: 35px;
+}
+.msg p{
+  front: 0.8em;
+  padding-bottom: 15px;
 }
 footer{
   background-color: #000814;
   color: black;
   text-decoration: none;
+  padding: 25px 50px;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 footer p {
   font-size: 1.2em;
@@ -214,3 +236,20 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }    
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+footer .social img{
+  padding-top: 15px;
+  margin-top: 200px;
+}   
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+} 
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
